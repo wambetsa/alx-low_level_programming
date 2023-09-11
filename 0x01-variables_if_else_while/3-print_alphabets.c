@@ -9,6 +9,7 @@
 int main(void)
 {
 	char alphabetLower;
+
 	for (alphabetLower = 'a'; alphabetLower <= 'z'; alphabetLower++)
 	{
 		putchar(alphabetLower);
