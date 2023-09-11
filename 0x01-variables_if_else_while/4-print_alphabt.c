@@ -9,6 +9,8 @@
 int main(void)
 {
 	char alpha, q, e;
+	q = 'q';
+	e = 'e';
 	for(alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		if(q != 'q' || e != 'e')
