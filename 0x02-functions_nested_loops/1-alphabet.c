@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet function
+ * print_alphabet function - short description
  * Description: Prints alphabets in small case from a -z
  */
 void print_alphabet(void)
