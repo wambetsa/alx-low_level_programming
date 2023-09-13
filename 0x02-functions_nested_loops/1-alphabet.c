@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet function
- * Prints alphabets in small case from a -z
+ * Description: Prints alphabets in small case from a -z
  */
 void print_alphabet(void)
 {
