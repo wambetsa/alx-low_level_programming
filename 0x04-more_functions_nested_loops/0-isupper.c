@@ -6,21 +6,11 @@
  * Return: Always 0 (Success)
  */
 int _isupper(int c)
-{
-	char upper;
-	int x;
-
-	for (upper = 'A'; upper <= 'Z'; upper++)
+{	
+	if (c >= 65 && c <=90)
 	{
-		if (c == upper)
-		{
-			x = 1;
-		}
-		else
-		{
-			x = 0;
-		}
+		return (1);
 	}
 
-	return (x);
+	return (0);
 }
