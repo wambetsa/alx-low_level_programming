@@ -8,9 +8,9 @@
  */
 
 /**
- * helper - Recursive helper function to find the square root.
+ * myhelperfunction - Recursive helper function to find the square root.
  * @n: The number for which to calculate the square root.
- * @i: The current guess for the square root.
+ * @k: The current guess for the square root.
  *
  * Return: The natural square root of n, or -1 if not found.
  */
