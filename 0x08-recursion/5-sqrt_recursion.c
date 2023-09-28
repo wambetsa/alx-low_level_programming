@@ -8,13 +8,13 @@
  */
 
 /**
- * myhelperfunction - Recursive helper function to find the square root.
+ * my_helper_function - Recursive helper function to find the square root.
  * @n: The number for which to calculate the square root.
  * @k: The current guess for the square root.
  *
  * Return: The natural square root of n, or -1 if not found.
  */
-int myhelperfunction(int n, int k)
+int my_helper_function(int n, int k)
 {
 	if (k * k == n)
 	{
@@ -24,7 +24,7 @@ int myhelperfunction(int n, int k)
 	{
 		return (-1);
 	}
-	return (myhelperfunction(n, k + 1));
+	return (my_helper_function(n, k + 1));
 }
 
 int _sqrt_recursion(int n)
@@ -37,5 +37,5 @@ int _sqrt_recursion(int n)
 	{
 		return (n);
 	}
-	return (myhelperfunction(n, 1));
+	return (my_helper_function(n, 1));
 }
