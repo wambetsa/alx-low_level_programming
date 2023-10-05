@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- *malloc_checked function that allocates memory using malloc
- *@s: point of allocated space
+ * malloc_checked - function that allocates memory using malloc
+ * @b: length of allocated space
  *
- *return : s
+ * Return: Returns pointer to allocated space
  **/
 void *malloc_checked(unsigned int b)
 {
