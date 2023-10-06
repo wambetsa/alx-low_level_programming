@@ -4,14 +4,14 @@
 
 /**
  * malloc_checked - function that allocates memory using malloc
- * @b: length of allocated space
+ * @b: size of allocated space
  *
  * Return: Returns pointer to allocated space
+ * the function exits with status 98 when malloc fails
  **/
 void *malloc_checked(unsigned int b)
 {
-	void *s;
-	s = malloc(b);
+	void *s = malloc(b);
 
 	if (s == NULL)
 	{
