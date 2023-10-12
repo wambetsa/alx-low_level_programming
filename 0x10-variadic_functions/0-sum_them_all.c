@@ -6,7 +6,9 @@
  * @sum - the sum of argument values
  * @ap - the va_list
  * @i - the counter used to navigate argument values
-*/
+ * Return: Returns parameter sum 
+ * If n == 0, return 0
+ */
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
@@ -16,17 +18,11 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(ap, n);
 
 	sum = 0;
-	if (n == 0)
+
+	for (i = 0; i < n; i ++)
 	{
-		return (0);
+		sum += va_arg(ap, int);
 	}
-	else
-	{
-		for (i = 0; i < n; i ++)
-		{
-			sum += va_arg(ap, int);
-		}
-		va_end(ap);
-		return (sum);
-	}
+	va_end(ap);
+	return (sum);
 }
