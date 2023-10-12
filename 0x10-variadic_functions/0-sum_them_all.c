@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 
-/* sum_them_all - function that sums arguments in function
+/* sum_them_all - function that sums all arguments
  * @n - the number of values in the argument
  * @sum - the sum of argument values
  * @ap - the va_list
