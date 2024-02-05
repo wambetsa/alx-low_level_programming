@@ -1,10 +1,9 @@
 #include "main.h"
+
 /**
- * cap_string - Write a function that capitalizes all words of a string.
- *
- * @entry: This is the input string
- *
- * Return: String capitalized
+ * cap_string - a function that capitalizes all words in a string
+ * @s: the string to change to capital case
+ * Return: result of capitalized string
  */
 char *cap_string(char *s)
 {
